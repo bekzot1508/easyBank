@@ -4,16 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>easyBank</title>
+  <title>EasyBank</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>hello i am born</h1>
+  <header class="sitenav-header">
+    <div class="sitenav-header__container container">
+      <a class="logo" href="#index.html">
+        <img class="logo__img" src="./imgs/easybank.svg" alt=" EasyBank logo" width="139" height="20">
+      </a>
 
+      <!-- SITENAV -->
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Home</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Contact</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Blog</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Careers</a></li>
+          </ul>
+        </nav>
 
+        <a class="button"  href="">request Invite</a>
+    </div>
+  </header>
+
+<!-- MAIN-CONTENT -->
+  <main class="main-content">
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Next generation digital banking
+          </h1>
+          <p class="hero__text">
+            Take your financial life online. Your Easybank account will be 
+            a one-stop-shop for spending, saving, budgeting, investing, and much more.
+          </p>
+          <a class="button"  href="">request Invite</a>
+        </div>
+        <img class="hero__img" src="./imgs/hero-phones-desktop.png" alt="EasyBank mobile app demos" 
+          width="729" height="900" srcset="imgs/hero-phones-desktop.png 1x, imgs/hero-phones-desktop@2x.png 2x ">
+      </div>
+    </div>
+  </main>
 
   <script src="js/main.js"></script>
 </body>
